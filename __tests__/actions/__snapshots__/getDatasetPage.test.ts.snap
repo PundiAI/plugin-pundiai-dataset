@@ -1,0 +1,62 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`getDatasetPage action > should fetch and format dataset data 1`] = `
+[MockFunction spy] {
+  "calls": [
+    [
+      {
+        "content": {
+          "datasetData": {
+            "currentPageNo": 1,
+            "data": [
+              {
+                "contractAddress": "0xbE0f332E99a557DB16E0a4a827f873f0A03d6CfE",
+                "datasetName": "May.6.George",
+                "fileSize": 0,
+                "hash": "",
+                "ownerAddress": "0x5d43dEDC405183DAD609c27BF7e7B0f2225A2B22",
+                "permissions": "public",
+                "tokenId": "17764",
+                "updateDt": 1746498788217,
+              },
+            ],
+            "pageSize": 20,
+            "totalCount": 1,
+            "totalPage": 1,
+          },
+          "params": {
+            "datasetName": "May.6.George",
+            "pageIndex": 1,
+            "pageSize": 20,
+          },
+        },
+        "text": "Here is the dataset data: 
+{
+  "data": [
+    {
+      "contractAddress": "0xbE0f332E99a557DB16E0a4a827f873f0A03d6CfE",
+      "tokenId": "17764",
+      "ownerAddress": "0x5d43dEDC405183DAD609c27BF7e7B0f2225A2B22",
+      "datasetName": "May.6.George",
+      "permissions": "public",
+      "hash": "",
+      "fileSize": 0,
+      "updateDt": 1746498788217
+    }
+  ],
+  "currentPageNo": 1,
+  "totalCount": 1,
+  "totalPage": 1,
+  "pageSize": 20
+}",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

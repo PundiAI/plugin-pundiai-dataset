@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`getDatasetDetails action > should fetch and format details data 1`] = `
+[MockFunction spy] {
+  "calls": [
+    [
+      {
+        "content": {
+          "detailsData": {
+            "contractAddress": "0xbE0f332E99a557DB16E0a4a827f873f0A03d6CfE",
+            "createDt": 1746498788217,
+            "dataTypeList": [],
+            "datasetName": "May.6.George",
+            "fileFormatList": [],
+            "fileSize": 0,
+            "hash": "",
+            "languageList": [],
+            "license": "other",
+            "numberOfRows": 0,
+            "ownerAddress": "0x5d43dEDC405183DAD609c27BF7e7B0f2225A2B22",
+            "permissions": "public",
+            "source": "",
+            "taskTypeList": [],
+            "tokenId": "17764",
+            "updateDt": 1746498788217,
+          },
+          "params": {
+            "contractAddress": "0xbE0f332E99a557DB16E0a4a827f873f0A03d6CfE",
+            "tokenId": "17764",
+          },
+        },
+        "text": "Here are the dataset details: 
+{
+  "contractAddress": "0xbE0f332E99a557DB16E0a4a827f873f0A03d6CfE",
+  "tokenId": "17764",
+  "ownerAddress": "0x5d43dEDC405183DAD609c27BF7e7B0f2225A2B22",
+  "datasetName": "May.6.George",
+  "permissions": "public",
+  "hash": "",
+  "fileSize": 0,
+  "updateDt": 1746498788217,
+  "createDt": 1746498788217,
+  "fileFormatList": [],
+  "taskTypeList": [],
+  "languageList": [],
+  "dataTypeList": [],
+  "license": "other",
+  "source": "",
+  "numberOfRows": 0
+}",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
